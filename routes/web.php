@@ -40,3 +40,7 @@ Route::get('/biodata',[Web::class, 'biodata']);
 Route::get('/kalkulator',[KalkulatorController::class, 'home']);
 //route untuk proses perhitungan
 Route::post('/kalkulator/proses',[KalkulatorController::class, 'proses']);
+
+use App\Http\Controllers\MahasiswaController;
+
+Route::get('/daftar/mahasiswa', [MahasiswaController::class, 'index']);

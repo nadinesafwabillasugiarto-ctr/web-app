@@ -10,10 +10,10 @@ class MahasiswaController extends Controller
     {
         // Data array mahasiswa sesuai modul
         $data_mahasiswa = [
-            ['nama' => 'Anton', 'alamat' => 'Surabaya', 'gender' => 'L'],
-            ['nama' => 'Budi', 'alamat' => 'Kediri', 'gender' => 'L'],
-            ['nama' => 'Ani', 'alamat' => 'Malang', 'gender' => 'P'],
-            ['nama' => 'Sinta', 'alamat' => 'Surabaya', 'gender' => 'P'],
+            ['nama' => 'Nadine', 'alamat' => 'Kediri', 'gender' => 'P'],
+            ['nama' => 'Athala', 'alamat' => 'Nganjuk', 'gender' => 'L'],
+            ['nama' => 'Dhennys', 'alamat' => 'Malang', 'gender' => 'L'],
+            ['nama' => 'Chelsea', 'alamat' => 'Surabaya', 'gender' => 'P'],
         ];
 
         // Kirim data ke view 'mahasiswa' menggunakan teknik parsing data
