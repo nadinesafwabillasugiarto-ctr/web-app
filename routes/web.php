@@ -49,4 +49,8 @@ Route::get('/daftar/mahasiswa', [MahasiswaController::class, 'index']);
 // route untuk menampilkan kalkulator segitiga
 use App\Http\Controllers\KalkulatorSegitigaController;
 
-Route::get('/kalkulator/segitiga', [KalkulatorSegitigaController::class, 'segitiga']);
+// Route untuk menampilkan halaman kalkulator
+Route::get('/kalkulator/segitiga', [KalkulatorSegitigaController::class, 'form']);
+
+// Route untuk memproses hasil perhitungan form
+Route::post('/kalkulator/segitiga', [KalkulatorSegitigaController::class, 'hitung']);
