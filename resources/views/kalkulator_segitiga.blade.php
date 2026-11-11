@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Kalkulator Luas Segitiga</title>
+    <!-- Memanggil CSS Bootstrap via CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
+    <!-- Menggunakan class container & card untuk mempercantik tampilan -->
     <div class="container mt-5">
         <div class="card shadow p-4" style="max-width: 500px; margin: auto;">
             <h3 class="mb-3 text-success">Perhitungan Luas Segitiga</h3>
